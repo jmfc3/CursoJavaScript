@@ -20,3 +20,29 @@
 >A função __Typeof *variavel*__ devolve o tipo da variavel
 
 ## Objetos
+* Os objetos guardam varios elementos
+```javascript
+    let pessoa = {
+    nome: 'Ricardo',
+    sobrenome: undefined,
+    idade: 23,
+    estaAprovado: true
+}
+```
+* Para acessar um elemento especifico desse objeto 
+```javascript
+    pessoa.nome
+```
+
+## Arrays
+* Os arrays são um conjunto de dados, dados esses que podem ser de qualquer tipo
+* Os arrays podem ser acessados atravez de um indice 
+* metodos de um array
+**length** ➞ devolve o numero de elementos de um array
+```javascript
+    let familia = [true, 'maria', 23, 10]
+    let segundaElemento = idades[1]
+```
+
+## Funções
+* 
