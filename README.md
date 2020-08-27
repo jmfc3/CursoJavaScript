@@ -45,4 +45,31 @@
 ```
 
 ## Funções
-* 
+* Pedaços de codigo que resolvem um pedaço do problema
+* Funções podem returnar alguma coisa, ou apenas realizar uma tarefa sem returnar nada
+```javascript
+    function resetaCor(c, tonalidade) {
+        cor = c + ' ' + tonalidade
+        return cor
+    }
+    let corAplicacao = resetaCor("verde", "claro")
+```
+
+## Operadores
+### Aritmeticos
+    ➞ +(adição), -(subtração), *(multiplicação), /(divisao), **(exponencial)
+### Atribuição
+    ➞ = (igual), +=, -=, *=, /= 
+### Comparação
+    == ➞ compara os valores
+    === ➞ compara os valores e o tipo dos valores
+### Logicos
+
+### Bitwise
+
+### Incrementação
+    ➞ ++ (incremento), -- (decremento)
+    ➞ idade++ (mostra a idade e depois incrementa)
+    ➞ idade-- (mostra a idade e depois decrementa)
+    ➞ ++idade (incrementa e depois mostra o valor)
+    ➞ --idade (decrementa e depois mostra o valor)
